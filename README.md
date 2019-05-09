@@ -1,4 +1,4 @@
-# vue-sprintboot
+# Calculation generator
 
 ## Project setup
 ```
@@ -27,3 +27,6 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+## Dependency
+This UI depends on calculation-generator to provide backend services. 
