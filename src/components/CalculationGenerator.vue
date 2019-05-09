@@ -16,6 +16,12 @@
                     <option value="40">40</option>
                 </select>
             </div>
+            <div class="input-group">
+                <div class="input-group-prepend">
+                    <span class="input-group-text" id="basic-addon1">Number of Operands</span>
+                </div>
+                <input type="number" class="form-control" placeholder="2" aria-label="Number of Operands" aria-describedby="basic-addon1" v-model="parameters.add.numOps">
+            </div>
         </div>
         <h4>Substraction</h4>
         <div class="form-group" id="substraction">
@@ -55,7 +61,8 @@
                 parameters: {
                     numQuestions: 1000,
                     "add": {
-                        "max": 10
+                        "max": 10,
+                        "numOps":2
                     },
                     "substract": {
                         "max": 10
